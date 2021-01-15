@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リアルタイムフィルター</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="search-area">
+      <form>
+        <input type="text" id="search-text" placeholder="検索ワードを入力">
+      </form>
+      <div class="search-result">
+        <div class="search-result__hit-num"></div>
+        <div id="search-result__list"></div>
+      </div>
+    </div>
+    <div class="img_wrapper">
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2019/06/18/11/32/cat-4282123_1280.jpg" alt="猫" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">猫 ねこ ネコ cat</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2015/03/26/09/54/pug-690566_1280.jpg" alt="犬" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">犬 いぬ イヌ dog</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2015/05/15/14/46/bmw-768688_1280.jpg" alt="車" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">車 くるま クルマ car</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2012/02/23/09/16/coffee-15994_1280.jpg" alt="コーヒー" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">珈琲 こーひー コーヒー coffee</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2016/10/11/09/26/office-1730939_1280.jpg" alt="mac" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">mac macbook パソコン</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2016/05/20/16/47/color-1405478_1280.jpg" alt="風鈴" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">風鈴 ふうりん フウリン</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2013/11/19/17/20/field-213364_1280.jpg" alt="田舎" class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">田舎 いなか イナカ</span>
+      </div>
+      <div class="img_box">
+        <img src="https://cdn.pixabay.com/photo/2015/02/14/19/46/winter-landscape-636634_1280.jpg" alt="雪"
+          class="filter_img">
+        <p class="sentece">キーワード</p>
+        <span class="keyword">雪 ゆき ユキ snow</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

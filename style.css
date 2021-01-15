@@ -1,0 +1,31 @@
+.filter_top {
+  margin: 0 auto;
+  padding-left: 100px;
+}
+
+.search {
+  width: 1040px;
+  height: 25px;
+  margin-left: 100px;
+}
+
+.img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.img_box {
+  border: 1px solid #757575;
+  padding: 20px;
+  width: 40%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.filter_img {
+  width: 100%;
+}
